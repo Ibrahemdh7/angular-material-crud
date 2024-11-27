@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+/* Align Material buttons with Bootstrap styles */
+button.mat-raised-button {
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 0.5rem 1rem; /* Adjust padding for better spacing */
+  }
+  
+  /* Optionally, override Bootstrap table styles */
+  table {
+    border-spacing: 0;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    vertical-align: middle;
+  }
+  
